@@ -33,8 +33,8 @@ function handleCommand(command) {
   } else if (command.includes("open instagram")) {
     speak("Opening Instagram...");
     window.open("https://www.instagram.com", "_blank");
-  }else if (command.includes("open Doctor AI")) {
-    speak("Opening Doctor AI...");
+  }else if (command.includes("open doctor ai")) {
+    speak("Opening doctor ai...");
     window.open("https://doctoraibyanshul.netlify.app/", "_blank");
   }else if (command.includes("open github ")) {
     speak("Opening github...");
@@ -171,3 +171,4 @@ btn.addEventListener("click", function () {
   };
 
 });
+
