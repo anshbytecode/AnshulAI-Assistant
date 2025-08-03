@@ -48,6 +48,9 @@ function handleCommand(command) {
   }else if (command.includes("open learnify")) {
     speak("Opening learnify...");
     window.open("https://learnifybyanshulbhilare.netlify.app/", "_blank"); 
+  }else if (command.includes("open resume")) {
+    speak("Opening resume...");
+    window.open("https://drive.google.com/file/d/1pN3AJe_goYjRtazYaD31qGaggt6mtfoO/view", "_blank");   
   }else if (command.includes("open calculator")) {
     speak("Opening calculator...");
     window.open("https://calculate-kr-anshul.netlify.app/", "_blank");   
@@ -186,5 +189,6 @@ btn.addEventListener("click", function () {
   };
 
 });
+
 
 
