@@ -54,6 +54,15 @@ function handleCommand(command) {
   }else if (command.includes("open calculator")) {
     speak("Opening calculator...");
     window.open("https://calculate-kr-anshul.netlify.app/", "_blank");   
+  }else if (command.includes("open login page")) {
+    speak("Opening login page...");
+    window.open("https://innovativeloginpagebyanshul.netlify.app/", "_blank");  
+  }else if (command.includes("open flex watch")) {
+    speak("Opening flex watch...");
+    window.open("https://anshulflexwatch.netlify.app/", "_blank");  
+  }else if (command.includes("open stall tracker")) {
+    speak("Opening stall tracker...");
+    window.open("https://stall-stock-savvyby-anshul.vercel.app/", "_blank");    
   }else if (command.includes("open github ")) {
     speak("Opening github...");
     window.open("https://github.com/anshbytecode", "_blank"); 
@@ -91,7 +100,7 @@ function handleCommand(command) {
   window.open("https://www.linkedin.com", "_blank");
 }else if (command.includes("open") && command.includes("linkedin")) {
   speak("Opening LinkedIn");
-  window.open("https://www.linkedin.com", "_blank");
+  window.open("https://www.linkedin.com/in/anshul-bhilare-251710290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "_blank");
 }else if (command.includes("open") && command.includes("spotify")) {
   speak("Opening Spotify");
   window.open("https://www.spotify.com", "_blank");
@@ -189,6 +198,7 @@ btn.addEventListener("click", function () {
   };
 
 });
+
 
 
 
