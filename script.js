@@ -33,6 +33,12 @@ function handleCommand(command) {
   } else if (command.includes("open instagram")) {
     speak("Opening Instagram...");
     window.open("https://www.instagram.com", "_blank");
+  }else if (command.includes("open Doctor AI")) {
+    speak("Opening Doctor AI...");
+    window.open("https://doctoraibyanshul.netlify.app/", "_blank");
+  }else if (command.includes("open github ")) {
+    speak("Opening github...");
+    window.open("https://github.com/anshbytecode", "_blank"); 
   } else if (command.includes("open whatsapp")) {
     speak("Opening WhatsApp...");
     window.open("https://www.whatsapp.com", "_blank");
@@ -163,4 +169,5 @@ btn.addEventListener("click", function () {
     avatarVideo.src = "avatar.gif.mp4"; 
     avatarVideo.play();
   };
+
 });
