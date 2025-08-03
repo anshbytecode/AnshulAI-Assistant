@@ -36,6 +36,21 @@ function handleCommand(command) {
   }else if (command.includes("open doctor ai")) {
     speak("Opening doctor ai...");
     window.open("https://doctoraibyanshul.netlify.app/", "_blank");
+  }else if (command.includes("open portfolio")) {
+    speak("Opening portfolio...");
+    window.open("https://anshulbhilareportfolio.netlify.app/", "_blank");
+  }else if (command.includes("open qr code generator")) {
+    speak("Opening qr code generator...");
+    window.open("https://qrcodegeneratorbyanshul.netlify.app/", "_blank"); 
+  }else if (command.includes("open movie website ")) {
+    speak("Opening movie website...");
+    window.open("https://moviewebsitebyanshulbhilare.netlify.app/", "_blank");  
+  }else if (command.includes("open learnify")) {
+    speak("Opening learnify...");
+    window.open("https://learnifybyanshulbhilare.netlify.app/", "_blank"); 
+  }else if (command.includes("open calculator")) {
+    speak("Opening calculator...");
+    window.open("https://calculate-kr-anshul.netlify.app/", "_blank");   
   }else if (command.includes("open github ")) {
     speak("Opening github...");
     window.open("https://github.com/anshbytecode", "_blank"); 
@@ -171,4 +186,5 @@ btn.addEventListener("click", function () {
   };
 
 });
+
 
