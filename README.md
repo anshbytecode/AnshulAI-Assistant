@@ -17,4 +17,7 @@ open stall tracker,
 open qr code generator,
 open google,
 open flex watch,
-what time is it
+what time is it,
+what is the date,
+repeat after me...,
+who developed you
